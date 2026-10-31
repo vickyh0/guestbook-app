@@ -2,7 +2,7 @@
 
 A simple guestbook web app deployed on a Linux EC2 instance, backed by a private Amazon RDS PostgreSQL database. Built for the MangoApps DevOps Engineer take-home assignment.
 
-* **Live app:** [http://77.113.211.17](http://77.113.211.17)[cite: 1]
+* **Live app:** [http://77.113.211.17](http://77.113.211.17)
 * **Health check:** [http://77.113.211.17/health](http://77.113.211.17/health)
 
 ---

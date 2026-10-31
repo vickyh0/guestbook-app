@@ -1,3 +1,15 @@
+# Production Flask Guestbook Application
+
+A production-ready Flask guestbook web application hosted on AWS EC2, backed by a managed AWS RDS PostgreSQL database, managed by Nginx and Gunicorn, and monitored with AWS CloudWatch alarms.
+
+
+# Live Application
+* **Live Web URL:** [http://77.113.211.17](http://77.113.211.17)
+
+---
+
+#Architecture Overview
+
 ```mermaid
 graph LR
     User[User browser] -->|HTTP :80| IGW[Internet Gateway]

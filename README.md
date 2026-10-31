@@ -8,7 +8,7 @@ A production-ready Flask guestbook web application hosted on AWS EC2, backed by 
 
 ---
 
-#Architecture Overview
+## Architecture Overview
 
 ```mermaid
 graph LR

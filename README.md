@@ -1,4 +1,3 @@
-```markdown
 # Guestbook: a small database-driven app on AWS
 
 A simple guestbook web app deployed on a Linux EC2 instance, backed by a private Amazon RDS PostgreSQL database. Built for the MangoApps DevOps Engineer take-home assignment.

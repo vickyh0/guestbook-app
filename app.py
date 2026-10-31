@@ -10,6 +10,7 @@ def get_conn():
         host=os.environ["DB_HOST"], dbname=os.environ["DB_NAME"],
         user=os.environ["DB_USER"], password=os.environ["DB_PASSWORD"],
         connect_timeout=3,
+        sslmode='require'
     )
 
 def init_db():
@@ -53,4 +54,7 @@ def health():
     except Exception as e:
         return jsonify(app="ok", database="down"), 503
 
-init_db()
+try:
+    init_db()
+except Exception as e:
+    print(f"init_db failed: {e}")
